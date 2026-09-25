@@ -283,26 +283,26 @@ There are necessary procedures that need to be checked for validations, and many
       This folder contains historical/legacy index extractors which could be useful in future development. 
       <h4>File Explanations:</h4> 
       <ul>
-         <li><a href = "feature_search/index_extraction/NOTE.txt">extract_entity_embeddings.py</a>
+         <li><a href = "feature_search/index_extraction/unused_index_extractors/extract_entity_embeddings.py">extract_entity_embeddings.py</a>
          <br>
          This file embeds the entity description + business logic. The used embedding model was 'gemini-embedding-01' model. The extractor is no longer being used, since it has been migrated to open-source ChromaDB vector database
          </li>
       </ul>
       <ul>
-         <li><a href = "feature_search/index_extraction/NOTE.txt">extract_feature_view_embeddings.py</a>
+         <li><a href = "feature_search/index_extraction/unused_index_extractors/extract_feature_view_embeddings.py">extract_feature_view_embeddings.py</a>
          <br>
          This file embeds the feature view description. The used embedding model was 'gemini-embedding-01' model. The index was created based on the entity of the feature view. The extractor is no longer being used, since it lacks of features or elements that can be easily analyzed or processed
          </li>
      </ul>
      <ul>
-         <li><a href = "feature_search/index_extraction/NOTE.txt">extract_features_embeddings.py</a>
+         <li><a href = "feature_search/index_extraction/unused_index_extractors/extract_features_embeddings.py">extract_features_embeddings.py</a>
          <br>
         This file embeds the feature description + business logic. The index also contains useful metadata such as
           entity of the feature, the feature view, the business logic and description themselves. The index is not used anymore since, the process has been migrated to ChromaDB Vector Database
          </li>
     </ul>
     <ul>
-         <li><a href = "feature_search/index_extraction/NOTE.txt">extract_field_embeddings</a>
+         <li><a href = "feature_search/index_extraction/unused_index_extractors/extract_field_embeddings">extract_field_embeddings.py</a>
          <br>
         This file embeds the feature description + business logic. The index is not used anymore since it lacks of features or elements that can be easily analyzed or processed
          </li>
